@@ -13,13 +13,17 @@ export * from "./middlewares/validate-request";
 export * from "./events/publisher";
 export * from "./events/listener";
 export * from "./events/subjects/subjects";
+//tickets
 export * from "./events/tickets/ticket-created-event";
 export * from "./events/tickets/ticket-deleted-event";
 export * from "./events/tickets/ticket-updated-event";
-
+//orders
 export * from "./events/orders/order-created-event";
 export * from "./events/orders/order-cancelled-event";
-
+//expiration
 export * from "./events/expiration/expiration-complete-event";
+//payments
+export * from "./events/payment/payment-created-event";
 
+//order status
 export * from "./events/types/order-status";
